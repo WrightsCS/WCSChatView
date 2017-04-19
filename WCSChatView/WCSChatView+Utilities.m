@@ -15,7 +15,6 @@
 
 @end
 
-
 #pragma mark - WCSCHatView+UIImage
 
 @implementation UIImage (WCSChatView)
@@ -28,9 +27,7 @@
     return [normal resizableImageWithCapInsets:UIEdgeInsetsMake(h, w, h, w)];
 }
 
-
 @end
-
 
 #pragma mark - WCSCHatView+NSDate
 

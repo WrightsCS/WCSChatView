@@ -11,4 +11,7 @@
 
 @interface WCSChatView : UIViewController
 
+- (void)reloadChat;
+- (void)sendMessage:(NSString *)message;
+
 @end

@@ -19,7 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.title = @"WCSChatView Example";
+    
+    [self sendMessage:@"ViewCotroller loaded."];
 }
+
 
 
 - (void)didReceiveMemoryWarning {

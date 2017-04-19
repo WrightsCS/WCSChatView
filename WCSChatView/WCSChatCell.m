@@ -84,8 +84,7 @@
                                                    attributes:@{NSFontAttributeName:kWCSChatViewDefaultFont} context:nil].size;
     
     CGSize contentSize = CGSizeMake(textRealSize.width + 40, textRealSize.height + 40);
-    switch ( model.type )
-    {
+    switch ( model.type ) {
         case WCSMessageTypeSent: {
             textX = kWCSChatViewScreenWidth - iconW - padding * 2 - contentSize.width;
             break;
